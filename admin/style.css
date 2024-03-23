@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.ad-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #EAEAEA;
+}
+.ad-form-cont{
+    /* border: 2px solid red; */
+    min-width: 30%;
+    min-height: 58%;
+    padding: 20px;
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+.ad-form-cont form{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#ad-sub{
+   background: green;
+   font-size: 18px;
+   color: white;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+}
+
+.navbar-nav{
+    display: flex;
+
+    align-items: center; 
+    width: 100%;
+}
+
+#ad_logout{
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </style>
+</head>
+
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        /* z-index: 100; */
+        background-color: black;
+        height: 60px;
+    }
+    header button{
+        margin: 20px;
+    }
+    .floating{
+        position: absolute;
+        background-color: rgb(62, 193, 197);
+        height: 600px;
+        width: 100%;
+        top: -539px;
+        transition: 4.5s ease-out;
+        z-index: -100;
+    }
+    
+
+    /* main p{
+        z-index: 100;
+    } */
+
+    .active{
+        top: 60px;
+        /* z-index: 100; */
+    }
+    /* .got{
+        z-index: -100;
+    } */
+</style>
+<body>
+    <header id="ok">
+        <button onclick="show()">Click here</button>
+    </header>
+
+    <div class="floating" id="mag">
+           <h1>
+                This is magic
+           </h1>
+    </div>
+
+
+    <main>
+       <!-- <p>ksebnfkw</p> -->
+    </main>
+
+
+
+
+    <script>
+          function show(){
+             document.getElementById("mag").classList.toggle("active")
+             document.getElementById("ok").classList.toggle("got")
+
+             
+          }
+              </script>
+</body>
+</html>

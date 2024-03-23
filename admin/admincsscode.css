@@ -1,0 +1,32 @@
+.admincssbtn{
+    background-color: rgb(69, 69, 240);
+    color: white;
+    border: none;
+}
+
+.adj-it{
+    opacity: 1;
+}
+
+#loot{
+    /* padding: 0; */
+    width: 10px;
+
+}
+
+#Add_plant{
+    margin: 10px 5px 10px 15px;
+}
+
+#editprod{
+    padding: 30px 200px 30px 30px;
+}
+
+#bighead{
+    margin-left: 30px;
+    /* margin-top: 20px; */
+}
+
+#gotcha{
+    display: none;
+}
